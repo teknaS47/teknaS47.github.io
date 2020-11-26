@@ -1,7 +1,75 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: black;
+  font-family: cursive;
+  -webkit-animation: body 1s ease-in-out infinite alternate;
+  /* overflow:hidden; */
+}
+@-webkit-keyframes body
+{
+    from {
+      background-color:#000;
+    }
+      to {
+    background-color:#001407;
+      }
+}
+.glow {
+  font-size: 150px;
+  color: #fff;
+  position:relative;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+
+}
+.glow2
+{
+  font-size: 100px;
+  color: #000;
+  position:relative;
+  text-align: center;
+  -webkit-animation: glow2 1s ease-in infinite alternate;
+
+}
+@-webkit-keyframes glow {
+  
+  from {
+  top:50px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e64d, 0 0 40px #00e64d, 0 0 50px #00e64d, 0 0 60px #00e64d, 0 0 70px #00e64d;
+  }
+  
+  to {
+  top:75px;
+    text-shadow: 0 0 30px #fff, 0 0 40px #00e64d, 0 0 50px #00e64d, 0 0 60px #00e64d, 0 0 70px #00e64d, 0 0 80px #00e64d, 0 0 90px #00e64d;
+  }
+}
+@-webkit-keyframes glow2 {
+  
+  from {
+  /* top:100px; */
+  text-shadow: 0px -8px 16px #fff,
+    0px -11px 22px #fff,
+    0px -15px 30px #00e64d,
+    0px -20px 40px #00e64d,
+    0px -26px 52px #00e64d;
+  }
+  
+  to {
+  /* top:135px; */
+  text-shadow: 0px -13px 26px #fff,
+    0px -16px 32px #fff,
+    0px -20px 40px #00e64d,
+    0px -25px 50px #00e64d,
+    0px -31px 62px #00e64d;
+  }
+}
+</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<h1 class="glow">Coming Soon</h1>
+<h3 class="glow2"></h3>
 </body>
 </html>
